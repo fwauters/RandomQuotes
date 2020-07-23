@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: blue;
+
+    header {
+        h1 {
+            font-size: 3rem;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+    }
+
+    section {
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            height: 300px;
+            width: auto;
+            margin: 50px;
+        }
+
+        blockquote {
+            p {
+                font-size: 2rem;
+                margin-right: 50px;
+            }
+
+            footer {
+                font-size: 1.3rem;
+                margin-top: 25px;
+            }
+        }
+    }
+}
